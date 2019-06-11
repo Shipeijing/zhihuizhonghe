@@ -1,0 +1,631 @@
+.swipercontent .el-carousel:hover .el-carousel__indicators {
+  display: block !important;
+}
+
+.swipercontent .el-carousel__indicators {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  bottom: 15px !important;
+  border-radius: 12px !important;
+  padding: 0 20px !important;
+  height: 22px !important;
+  display: none !important;
+}
+
+.swipercontent .el-carousel__indicator {
+  padding: 5px !important;
+  height: 12px !important;
+  overflow: hidden;
+}
+
+.swipercontent .el-carousel__indicator .el-carousel__button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 6px !important;
+}
+
+.swipercontent .is-active .el-carousel__button {
+  width: 40px !important;
+}
+
+.swipercontent img {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  min-width: 1170px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  border: 0;
+  vertical-align: top
+}
+
+input,
+button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  outline-style: none;
+  -moz-outline-style: none;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/*全局颜色*/
+.orange {
+  color: #fb400e !important;
+}
+
+.black {
+  color: #000000 !important;
+}
+
+/*网页头部*/
+.mainTop {
+  border-bottom: 2px solid #26A9E1;
+}
+
+.head .top {
+  width: 100%;
+  height: 50px;
+  background-color: #f7f7f7;
+}
+
+.head .top .topc {
+  width: 1170px;
+  margin: 0 auto;
+  color: #2f2f2f;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.head .top .topc p {
+  float: left;
+}
+
+.marginauto {
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.head .top .topc .dl {
+  float: left;
+  display: block;
+  margin-top: 18px;
+  margin-left: 30px;
+}
+
+.head .top .topc .register {
+  margin-left: 15px;
+}
+
+.head .top .topr {
+  float: right;
+}
+
+.head .top .topr img {
+  display: block;
+  float: left;
+  margin-top: 17px;
+  margin-right: 15px;
+  width: 18px;
+}
+
+.head .top .topr p {
+  float: left;
+}
+
+.head .top .topr .phone {
+  margin-right: 30px;
+}
+
+.head .top .topz {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+
+.head .top .topz .logo {
+  width: 190px;
+  display: block;
+  float: left;
+  margin-right: 50px;
+}
+
+.head .searchBox {
+  float: left;
+  margin-left: 136px;
+}
+
+.head .searchBox label {
+  width: 360px;
+  height: 40px;
+  display: block;
+  border: 2px solid #26a9e1;
+}
+
+.head .searchBox label input {
+  width: 270px;
+  height: 34px;
+  line-break: 34px;
+  margin-top: 2px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: none;
+  float: left;
+}
+
+.head .searchBox label button {
+  height: 40px;
+  width: 70px;
+  border: none;
+  float: right;
+  background-color: #26A9E1;
+  cursor: pointer;
+}
+
+.head .searchBox label ul {
+  color: #2F2F2F;
+  font-size: 12px;
+}
+
+.head .searchBox label ul li {
+  float: left;
+  margin-right: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.head .loginBox {
+  float: right;
+}
+
+.head .loginBox .tx {
+  display: block;
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-right: 30px;
+}
+
+.head .loginBox p {
+  color: #2F2F2F;
+  font-size: 14px;
+  padding-left: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.head .loginBoxR {
+  width: 186px;
+  height: 65px;
+  float: right;
+}
+
+.head .loginBox a {
+  display: block;
+  float: left;
+  width: 82px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.head .loginBox .loginB {
+  background-color: #26a9e1;
+}
+
+.head .loginBox .registerB {
+  background-color: #33cdf4;
+  margin-left: 15px;
+}
+
+/*导航栏*/
+nav {
+  width: 1170px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* overflow: hidden; */
+}
+
+nav .leftList {
+  width: 190px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #26A9E1;
+  cursor: pointer;
+  float: left;
+}
+
+nav .leftList p {
+  width: 120px;
+  height: 25px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+nav .leftList p img {
+  display: block;
+  float: left;
+  margin-top: 11px;
+  margin-right: 15px;
+}
+
+nav .navList {
+  float: left;
+
+}
+
+nav .navList li {
+  padding: 0 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+}
+
+nav .navList li:last-child {
+  padding-right: 0;
+}
+
+nav .newNavList {
+  float: left;
+
+}
+
+nav .newNavList li {
+  padding: 0 35px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+}
+
+nav .newNavList li:last-child {
+  padding-right: 0;
+}
+
+/*登陆*/
+.sectionBox {
+  background: url(../img/bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sectionconBox {
+  width: 1170px;
+  height: 610px;
+  margin: 0 auto;
+  margin-top: -1px;
+}
+
+.sectionconBox .loginDiv {
+  width: 438px;
+  height: 459px;
+  background: url(../img/loginbg.png);
+  float: right;
+  margin-top: 60px;
+  margin-right: -4px;
+}
+
+.sectionconBox .loginDiv h1 {
+  font-size: 18px;
+  color: #2f2f2f;
+  padding-top: 35px;
+  padding-left: 55px;
+  margin-bottom: 30px;
+}
+
+.sectionconBox .loginDiv>label {
+  display: block;
+  width: 320px;
+  height: 38px;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+  margin-left: 55px;
+}
+
+.sectionconBox .loginDiv>label input {
+  width: 270px;
+  font-size: 14px;
+  height: 31px;
+  line-height: 31px;
+  margin-top: 2px;
+  border: none;
+  float: right;
+  padding-left: 10px;
+}
+
+.sectionconBox .loginDiv>label input::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.sectionconBox .loginDiv>label input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+
+.sectionconBox .loginDiv>label input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+
+.sectionconBox .loginDiv>label input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+}
+
+.sectionconBox .loginDiv>label span {
+  display: block;
+  width: 38px;
+  height: 38px;
+  float: left;
+  background-color: #F5F5F5;
+}
+
+.sectionconBox .loginDiv>label span img {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.sectionconBox .loginDiv .l {
+  margin-bottom: 15px;
+}
+
+.sectionconBox .loginDiv .automatic input {
+  float: left;
+  width: 15px;
+  height: 15px;
+}
+
+.sectionconBox .loginDiv .automatic label {
+  cursor: pointer;
+}
+
+.sectionconBox .loginDiv .automatic {
+  float: right;
+  display: block;
+  margin-right: 65px;
+  margin-top: 15px;
+}
+
+.sectionconBox .loginDiv .automatic p {
+  float: left;
+  font-size: 14px;
+  color: #999999;
+}
+
+.sectionconBox .loginDiv .land {
+  width: 320px;
+  height: 45px;
+  margin-left: 55px;
+  color: #FFFFFF;
+  background-color: #33cdf4;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sectionconBox .loginDiv .huid {
+  width: 320px;
+  height: 45px;
+  margin-left: 55px;
+  color: #FFFFFF;
+  background-color: #cccccc;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sectionconBox .loginDiv .prompt {
+  font-size: 14px;
+  color: #535353;
+  margin-left: 55px;
+  margin-top: 18px;
+  border-bottom: 1px solid #eeeeee;
+  width: 320px;
+  padding-bottom: 35px;
+}
+
+.wjma {
+  float: right;
+}
+
+.cus {
+  cursor: pointer;
+}
+
+/*底部信息*/
+.footer {
+  width: 100%;
+  height: 213px;
+  background-color: #393939;
+}
+
+.footer>div {
+  width: 1170px;
+  height: 213px;
+  margin: 0 auto;
+}
+
+.footer>div ul {
+  font-size: 12px;
+  color: #999999;
+  padding-top: 35px;
+  float: left;
+  margin-right: 100px;
+}
+
+.footer>div ul li {
+  line-height: 30px;
+  height: 30px;
+}
+
+.footer>div ul li:first-child {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.footer>div .ewm {
+  width: 120px;
+  height: 124px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  float: left;
+  padding-top: 42px;
+}
+
+.footer>div .ewm img {
+  width: 90px;
+  border: 2px solid #FFFFFF;
+  display: block;
+  margin: 15px;
+}
+
+.footerbottom {
+  width: 100%;
+  height: 45px;
+  background-color: #2d2d2d;
+}
+
+.footerbottom p {
+  text-align: center;
+  line-height: 45px;
+  color: #999999;
+  font-size: 12px;
+}
+
+.footerbottom p span {
+  margin-left: 70px;
+}
+
+.rightphone {
+  width: 160px;
+  float: right;
+  padding-top: 65px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.rightphone h2 {
+  font-size: 22px;
+  color: #EFEFEF !important;
+  line-height: 50px;
+}
+
+.rightphone i {
+  font-size: 12px;
+  font-style: normal;
+  color: #999999;
+}
+
+/*4040页面*/
+.undefined {
+  min-height: 610px;
+  position: relative;
+}
+
+.undefined .bjbg {
+  position: relative;
+  top: -145px;
+  z-index: -999;
+  width: 100%;
+}
+
+.undefined section {
+  width: 740px;
+  height: 315px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.undefined section div {
+  float: left;
+  width: 370px;
+  height: 315px;
+}
+
+.undefined section div:last-child img {
+  display: block;
+  float: right
+}
+
+.undefined section div:first-child img {
+  display: block;
+  margin-top: 15px;
+}
+
+.undefined section a {
+  width: 148px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  float: left;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.undefined section .resurrection {
+  background-color: #c0c0c0;
+  margin-right: 22px;
+}
+
+.undefined section .index {
+  background-color: #26a9e1;
+}

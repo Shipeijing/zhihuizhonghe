@@ -1,0 +1,160 @@
+/*
+     作者：刘子亭
+     时间：2018-07-22
+     内容：订单管理css
+*/
+.content{
+	background-color: #ffffff;
+	
+}
+.content .main{
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+
+/*右侧开始*/
+.main .right {
+	width: 1126px;
+	background-color: #FFFFFF;
+	padding: 22px;
+	padding-bottom: 100px;
+}
+ h1{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	color: #26a9e1;
+	border-left: 5px solid #26a9e1;
+	padding-left: 15px;
+}
+.main .right .navList {
+	margin-top: 25px;
+	padding-left: 45px;
+}
+.main .right .navList li{
+	float: left;
+	font-size: 14px;
+	color: #2c2c2c;
+	padding: 0 10px;
+	margin-right: 25px;
+	line-height: 30px;
+}
+.main .right .navList li span{
+	color: #FF7301;
+}
+.main .right .navList .active{
+	border-bottom: 2px solid #26a9e1;
+}
+.main .right .orderList{
+	margin-top: 25px;
+}
+.main .right .orderList ul{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f6f6f6;
+}
+.main .right .orderList ul li {
+	float: left;
+	font-size: 14px;
+	color: #2f2f2f;
+	text-align: center;
+}
+.main .right .orderList ul li:nth-child(1){
+	width: 356px;
+	padding-left: 44px;
+}
+.main .right .orderList ul li:nth-child(2){
+	width: 185px;
+}
+.main .right .orderList ul li:nth-child(3){
+	width: 76px;
+}
+.main .right .orderList ul li:nth-child(4){
+	width: 185px;
+	padding-left: 25px;
+}
+.main .right .orderList ul li:nth-child(5){
+	width: 132px;
+}
+.main .right .orderList ul li:nth-child(6){
+	width: 90px;
+	text-align: center;
+}
+.main .right .orderList p{
+	font-size: 12px;
+	color: #2F2F2F;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.main .right .orderList span{
+	display: inline-block;
+	margin-right: 20px; 
+}
+.main .right .order{
+	width: 1090px !important;
+	height: 72px !important;
+	line-height: 72px !important;
+	padding: 12px 20px;
+}
+.main .right .order img{
+	width: 102px;
+	height: 72px;
+	display: block;
+	float: left;
+}
+.main .right .order li{
+	font-size: 12px !important;
+	padding: 0 !important;
+	line-height: 40px;
+}
+.main .right .order li:nth-child(1){
+	padding-right: 24px !important;
+}
+.main .right .order li:nth-child(4){
+	padding-left: 25px !important;
+}
+.main .right .order li:nth-child(6){
+	width: 90px;
+	text-align: center;
+}
+.main .right .order li p{
+	height: 72px !important;
+	float: left !important;
+	width: 230px;
+	line-height: 16px;
+	padding-top: 10px;
+	text-align: left;
+}
+.main .right .order .button{
+	display: block;
+	width:75px;
+	height:30px;
+	font-size:12px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 30px;
+	background:rgba(253,136,51,1);
+	border-radius:6px;
+	color: #FFFFFF;
+	margin-top: 8px;
+}
+.main .right .order .lan{
+	background:rgba(99,168,227,1);
+}
+.main .right .order .cancel{
+	width:48px;
+	height:20px !important;
+	font-size:12px;
+	font-family:MicrosoftYaHei;
+	color:rgba(239,26,26,1);
+	line-height:20px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	cursor: pointer;
+}
+

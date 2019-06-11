@@ -1,0 +1,20 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+#orderList .el-upload--picture-card {
+  width: 80px;
+  height: 80px;
+  line-height: 85px;
+}
+
+#orderList .el-upload-list--picture-card .el-upload-list__item {
+  width: 80px;
+  height: 80px;
+}

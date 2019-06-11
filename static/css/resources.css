@@ -1,0 +1,264 @@
+/*
+     作者：刘子亭
+     时间：2018-07-12
+     内容：资源商场css
+*/
+.content{
+	background-color: #eeeeee;
+	min-height: 1000px;
+	/*margin-bottom: 15px;*/
+}
+.content .main{
+	width: 1170px;
+	margin: 0 auto;
+}
+.content .broadcast{
+	margin-top: -1px;
+}
+/*轮播图*/
+.swipercontent {
+	float: left;
+	margin-bottom: 10px;
+}
+.swipercontent .swiper-container {
+  	width: 1170px;
+  	height: 380px;
+  	margin-top: 10px;
+ 	float: left;
+}
+.swipercontent .swiper-container img{
+  	width: 1170px;
+  	height: 380px;
+}
+.swipercontent .swiper-pagination-bullet{
+	width: 30px;
+	height: 5px;
+	background-color: #acb5c2;
+	border-radius: inherit;
+}
+/*左侧*/
+.content .main .left{
+	width: 305px;
+	margin-right: 15px;
+	float: left;
+}
+/*右侧*/
+.content .main .right{
+	width: 850px;
+	float: left;
+}
+.content .main .right li{
+	width: 234px;
+	height: 230px;
+	background-color: #FFFFFF;
+	margin: 0 7px;
+	float: left;
+	margin-bottom: 15px;
+	padding: 10px 20px 20px 20px;
+	-moz-box-shadow:0px 5px 13px #BDBDBD;
+	-webkit-box-shadow:0px 5px 13px #BDBDBD;
+	box-shadow:0px 3px 21px #BDBDBD;
+}
+.content .main .right li img{
+	display: block;
+	margin: 0 auto;
+}
+.content .main .right li:nth-child(3n+1){
+	margin-left: 0;
+}
+.content .main .right li:nth-child(3n+3){
+	margin-right: 0;
+}
+.content .main .right li a{
+	font-size: 16px;
+	color: #2f2f2f;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+}
+.content .main .right li a:hover{
+	color: #ff7301;
+}
+.content .main .right li p{
+	font-size: 14px;
+	color: #000000;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.content .main .right .lowerSix li{
+	height: 290px;
+}
+.content .main .right .lowerSix li img{
+	margin-bottom: 5px;
+}
+.content .main .right .lowerSix li span{
+	display: block;
+	margin-bottom: 36px;
+}
+.content .main .right .lowerSix li span img{
+	display: block;
+	float: left;
+	margin: 0;
+	margin-right: 5px;
+	margin-top: 1px;
+	
+}
+.content .main .right .lowerSix li div{
+	width: 210px;
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+}
+.content .main .right .lowerSix li span em{
+	font-style: normal;
+	color: #2F2F2F;
+	font-size: 12px;
+	float: left;
+}
+.content .main .right .lowerSix li .lxwm{
+	width: 120px;
+	height: 30px;
+	font-size: 13px;
+	color: #FFFFFF;
+	background-color: #cccccc;
+	border-radius: 15px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content .main .right .lowerSix li .lxwm:hover{
+	background-color: #33cdf4;
+}
+.content .main .right .lowerSix li .lxwm p{
+	color: #FFFFFF;
+	text-align: left;
+	line-height: 30px;;
+}
+.content .main .right .lowerSix li .lxwm img{
+	display: block;
+	float: left;
+	margin-top: 8px;
+	margin-left: 21px;
+	margin-right: 10px;
+}
+/*左侧*/
+.content .main .left .leftTop{
+	height: 535px;
+	margin-bottom: 15px;
+}
+.content .main .left .leftTop img{
+	width: 100%;
+	height: 535px;
+}
+.content .main .left .jpfw{
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+.content .main .left .jpfw .top{
+	border-bottom: 2px solid #ececec;
+}
+.content .main .left .jpfw .top h1{
+	font-size: 18px;
+	color: #26a9e1;
+	width: 140px;
+	border-bottom: 2px solid #26A9E1;
+	padding-bottom: 10px;
+	margin-bottom: -2px;
+}
+.content .main .left .jpfw .top .more{
+	display: block;
+	float: right;
+	width: 50px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	border: 1px solid #ececec;
+	background-color: #efefef;
+	font-size: 12px;
+	color: #959595;
+	margin-top: -34px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.content .main .left .jpfw ul{
+	margin-top: 20px;
+}
+.content .main .left .jpfw ul li{
+	margin-bottom: 10px;
+}
+.content .main .left .jpfw ul li img{
+	width: 270px;
+	height: 265px;
+}
+.content .main .left .rmzx{
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin-top: 15px;
+}
+.content .main .left .rmzx .top{
+	border-bottom: 2px solid #ececec;
+}
+.content .main .left .rmzx .top h1{
+	font-size: 18px;
+	color: #26a9e1;
+	width: 140px;
+	border-bottom: 2px solid #26A9E1;
+	padding-bottom: 10px;
+	margin-bottom: -2px;
+}
+.content .main .left .rmzx .top .more{
+	display: block;
+	float: right;
+	width: 60px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	border: 1px solid #ececec;
+	background-color: #efefef;
+	font-size: 12px;
+	color: #959595;
+	margin-top: -34px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.content .main .left .rmzx ol li p{
+	font-size: 12px;
+	color: #000000;
+	float: left;
+}
+.content .main .left .rmzx ol{
+	margin-top: 15px;
+}
+.content .main .left .rmzx ol li{
+	line-height: 30px;
+	list-style: initial;
+	margin-left: 15px;
+}
+.content .main .left .rmzx ol li a{
+	font-size: 12px;
+	float: right;
+	color: #ff7301;
+}
+.content .main .left .rmzx .jpTop{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #cbcbcb;
+}
+.content .main .left .rmzx .jpTop img{
+	width: 104px;
+	height: 80px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.content .main .left .rmzx .jpTop h1{
+	font-size: 16px;
+	color: #2f2f2f;
+	margin-bottom: 8px;
+}
+.content .main .left .rmzx .jpTop p{
+	font-size: 12px;
+	color: #747474;
+	line-height: 18px;
+}

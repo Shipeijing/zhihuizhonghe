@@ -1,0 +1,307 @@
+/*
+     作者：刘子亭
+     时间：2018-07-11
+     内容：资讯css
+*/
+.content{
+	background-color: #eeeeee;
+	min-height: 1000px;
+	/*margin-bottom: 15px;*/
+}
+.content .main{
+	width: 1170px;
+	margin: 0 auto;
+}
+.content .broadcast{
+	margin-top: -1px;
+}
+.content .main .left{
+	width: 782px;
+	float: left;
+}
+/*轮播图*/
+.swipercontent {
+	float: left;
+}
+.swipercontent .swiper-container {
+  	width: 782px;
+  	height: 386px;
+  	margin-top: 15px;
+ 	float: left;
+}
+.swipercontent .swiper-container img{
+  	width: 782px;
+  	height: 386px;
+}
+.swipercontent .swiper-pagination-bullet{
+	width: 30px;
+	height: 5px;
+	background-color: #acb5c2;
+	border-radius: inherit;
+}
+/*资讯列表*/
+.content .main .left {
+	width: 785px;
+	float: left;
+}
+.content .main .left .zxList{
+	width: 732px;
+  	height: 970px;
+  	background-color: #FFFFFF;
+  	margin-top: 20px;
+  	padding: 25px;
+}
+.content .main .left .zxList .top{
+	border-bottom: 2px solid #ececec;
+}
+.content .main .left .zxList .top h1{
+	font-size: 20px;
+	color: #26a9e1;
+	width: 140px;
+	border-bottom: 2px solid #26A9E1;
+	padding-bottom: 15px;
+	margin-bottom: -2px;
+}
+.content .main .left .zxList .top .more{
+	display: block;
+	float: right;
+	width: 74px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #ececec;
+	background-color: #efefef;
+	font-size: 12px;
+	color: #959595;
+	margin-top: -38px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.content .main .left .newsleft{
+	width: 732px;
+	float: left;
+	margin-top: 20px;
+}
+.content .main .left .newsleft ul > li{
+	padding: 10px;
+	height: 152px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.content .main .left .newsleft .active{
+	background-color: #f0f0f0;
+}
+.content .main .left .newsleft .leftimg{
+	display: block;
+	float: left;
+	width: 228px;
+	height: 152px;
+	margin-right: 15px;
+}
+.content .main .left .newsleft h1{
+	font-size: 20px;
+	color: #2F2F2F;
+}
+.content .main .left .newsleft li a{
+	float: left;
+	display: block;
+	width: 78px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #ff7301;
+	font-size: 12px;
+	border: 1px solid #ff7301;
+	border-radius: 18px;
+	position: absolute;
+	left: 253px;
+	bottom: 10px;
+}
+.content .main .left .newsleft p{
+	font-size: 12px;
+	color: #959595;
+	margin-top: 10px;
+	line-height: 22px;
+}
+.content .main .left .newsleft .ly{
+	width: 13px;
+	height: 13px;
+	margin-top: 5px;
+}
+.content .main .left .newsleft .ll{
+	width: 19px;
+	height: 11px;
+	margin-top: 5px;
+}
+.content .main .left .newsleft .sj{
+	width: 13px;
+	height: 13px;
+	margin-top: 4px;
+}
+.content .main .left .newsleft ul > li ol{
+	float: right;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.content .main .left .newsleft ul > li ol li{
+	float: left;
+	margin-left: 25px;
+}
+.content .main .left .newsleft ul > li ol li img{
+	display: block;
+	float: left;
+}
+.content .main .left .newsleft ul > li ol li p{
+	margin: 0;
+	float: left;
+	padding-left: 10px;
+}
+/*热搜资讯*/
+.content .main .right{
+	float: left;
+	width: 370px;
+	margin-left: 15px;
+}
+.content .main .right .zxTop{
+	width: 323px;
+  	height: 760px;
+  	background-color: #FFFFFF;
+  	margin-top: 15px;
+  	padding: 25px;
+}
+.content .main .right .zxTop .top{
+	border-bottom: 2px solid #ececec;
+}
+.content .main .right .zxTop .top h1{
+	font-size: 20px;
+	color: #26a9e1;
+	width: 140px;
+	border-bottom: 2px solid #26A9E1;
+	padding-bottom: 15px;
+	margin-bottom: -2px;
+}
+ .zxTop .top .more{
+	display: block;
+	float: right;
+	width: 74px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #ececec;
+	background-color: #efefef;
+	font-size: 12px;
+	color: #959595;
+	margin-top: -38px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.content .main .right .rsList ul li{
+	padding: 15px 0 ;
+	height: 110px;
+	border-bottom: 1px dashed #cbcbcb;
+}
+.content .main .right .rsList ul li h1{
+	font-size: 16px;
+	color: #ff7301;
+	margin-bottom: 15px;
+}
+.content .main .right .rsList ul li img{
+	width: 110px;
+	height: 70px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+.content .main .right .rsList ul li p{
+	width: 198px;
+	font-size: 12px;
+	color: #2f2f2f;
+	float: left;
+	line-height: 18px;
+}
+/*热搜词条*/
+.content .main .right .zxctList{
+	width: 323px;
+  	height: 550px;
+  	background-color: #FFFFFF;
+  	margin-top: 15px;
+  	padding: 25px;
+}
+.content .main .right .zxctList .top{
+	border-bottom: 2px solid #ececec;
+}
+.content .main .right .zxctList .top h1{
+	font-size: 20px;
+	color: #26a9e1;
+	width: 140px;
+	border-bottom: 2px solid #26A9E1;
+	padding-bottom: 15px;
+	margin-bottom: -2px;
+}
+.content .main .right .zxctList .top .more{
+	display: block;
+	float: right;
+	width: 74px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #ececec;
+	background-color: #efefef;
+	font-size: 12px;
+	color: #959595;
+	margin-top: -38px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.content .main .right .zxctList .rankings{
+	margin-top: 25px;
+	margin-left: -11px;
+}
+.content .main .right .zxctList .rankings li{
+	cursor: pointer;
+	width: 327px;
+	height: 22px;
+	padding: 13px 10px;
+	
+}
+.content .main .right .zxctList .rankings li:hover{
+	background-color: #f0f0f0;
+}
+.content .main .right .zxctList .rankings li span{
+	display: block;
+	width: 60px;
+	height: 22px;
+	border-radius: 15px;
+	background-color: #c0c0c0;
+	text-align: center;
+	line-height: 22px;
+	color: #FFFFFF;
+	font-size: 12px;
+	display: block;
+	float: left;
+}
+/*Top1~Top3*/
+.content .main .right .zxctList .rankings li:nth-child(1) span{
+	background-color: #d80b0b;
+}
+.content .main .right .zxctList .rankings li:nth-child(2) span{
+	background-color: #ff4c1c;
+}
+.content .main .right .zxctList .rankings li:nth-child(3) span{
+	background-color: #ff8c1c;
+}
+.content .main .right .zxctList .rankings li p{
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	font-size: 16px;
+	margin-left: 15px;
+}
+.content .main .right .zxctList .rankings li i{
+	font-style: normal;
+	font-size: 16px;
+	color: #c0c0c0;
+	float: right;
+}

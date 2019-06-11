@@ -1,0 +1,230 @@
+/*
+     作者：刘子亭
+     时间：2018-07-24
+     内容：购物车css
+*/
+.content{
+	background-color: #FFFFFF;
+	
+}
+.content .carMain{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 15px 30px 140px;
+}
+.content .carMain h1{
+	font-size:20px;
+	color:rgba(47,47,47,1);
+	line-height:33px;
+}
+.content .carMain h1 a{
+	color: #FB400E;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.content .carMain .boxList ul{
+	width:1110px;
+	height:40px;
+	line-height: 40px;
+	background:rgba(246,246,246,1);
+	margin-top: 26px;
+	font-size: 14px;
+	margin: 0;
+	border-radius: 1px;
+	border: 1px solid #FFFFFF;
+}
+.content .carMain .boxList .border{
+	height: 95px;
+	border: 1px solid #E2E2E2;
+	font-size: 12px;
+}
+.content .carMain .boxList ul li{
+	float: left;
+}
+.content .carMain .boxList ul li img{
+	width: 101px;
+	height: 70px;
+	display: block;
+	margin-top: 13px;
+}
+.content .carMain .boxList ul li:nth-child(1) input{
+	display: block;
+	margin: 0 auto;
+	width: 15px;
+	height: 15px;
+	margin-top: 13px;
+}
+.content .carMain .boxList .border li:nth-child(1) input{
+	margin-top: 25px;
+}
+.content .carMain .boxList .border li:nth-child(4) p{
+	width: 120px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.content .carMain .boxList .border li:nth-child(5),li:nth-child(7) p{
+	margin-top: 9px;
+}
+.content .carMain .boxList .border li:nth-child(8) a:first-child{
+	display: block;
+	margin-top: 9px;
+	height: 30px;
+}
+.content .carMain .boxList .border li section{
+	width: 95px;
+	height: 25px;
+	float: left;	
+	margin-top: 20px;
+	margin-left: -32px;
+}
+.content .carMain .boxList .border li section .reduce{
+	border-left-radius: 10px;
+}
+.content .carMain .boxList .border li section label{
+	float: left;
+	display: block;
+	width: 27px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #d4d4d4;
+	border: 1px solid #c1c1c1;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.content .carMain .boxList .border li section label:first-child{
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+}
+.content .carMain .boxList .border li section label:last-child{
+	border-top-right-radius:2px;
+	border-bottom-right-radius:2px;
+}
+.content .carMain .boxList .border li section input{
+	width: 36px;
+	height: 25px;
+	text-align: center;
+	padding: 0;
+	border: none;
+	float: left;
+	border-top: 1px solid #c1c1c1;
+	border-bottom: 1px solid #c1c1c1;
+}
+.content .carMain .boxList ul li:nth-child(1){
+	width: 47px;
+}
+.content .carMain .boxList ul li:nth-child(2){
+	width: 125px;
+}
+.content .carMain .boxList ul li:nth-child(3){
+	width: 330px;
+}
+.content .carMain .boxList ul li:nth-child(4){
+	width: 138px;
+}
+.content .carMain .boxList ul li:nth-child(5){
+	width: 138px;
+}
+.content .carMain .boxList ul li:nth-child(6){
+	width: 130px;
+}
+.content .carMain .boxList ul li:nth-child(7){
+	width: 128px;
+}
+.content .carMain .boxList ul li:nth-child(7){
+	width: 128px;
+}
+.content .carMain .boxList .title{
+	height: 48px;
+	color: #2F2F2F;
+	font-size: 12px;
+	line-height: 48px;
+}
+.content .carMain .boxList .title input{
+	display: block;
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 16px;
+}
+.content .carMain .boxList .title img{
+	display: block;
+	float: left;
+	margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.content .settlement{
+	width:100%;
+	height:70px;
+	background:rgba(255,255,255,1);
+	box-shadow:12px 0px 0px rgba(212,212,212,0.2);
+	background: url(../img/bubg.png);
+}
+.content .settlement section{
+	width: 1170px;
+	height: 60px;
+    line-height: 60px;
+	margin: 0 auto;
+
+}
+.content .settlement section p{
+	float: right;
+	margin: 0;
+	font-size: 14px;
+	height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+	color: #2f2f2f;
+	margin-right: 57px;
+}
+.content .settlement section p em{
+	margin-right: 46px;
+}
+.content .settlement section p span{
+	font-size: 18px;
+	color: #fb400e;
+}
+.content .settlement section .button{
+	display: block;
+	float: right;
+	width:150px;
+	height: 58px;
+    line-height: 58px;
+    margin-top: 12px;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	cursor: pointer;
+	background:rgba(38,169,225,1);
+}
+.content .settlement section .left{
+	float: left;
+	height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+}
+.content .settlement section .left input{
+	display: block;
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 16px;
+	margin-right: 30px;
+}
+.content .settlement section .left a{
+	font-size: 14px;
+	color: #2f2f2f;
+}
+.content .settlement section .left .qx{
+	margin-right: 100px;
+}
+.content .settlement section .left .yr{
+	margin-left: 40px;
+}

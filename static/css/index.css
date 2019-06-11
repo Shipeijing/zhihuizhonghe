@@ -1,0 +1,597 @@
+/*
+     作者：刘子亭
+     时间：2018-07-10
+     内容：首页css
+*/
+/*轮播模块*/
+.content{
+	background-color: #eeeeee;
+	min-height: 1000px;
+	/*margin-bottom: 15px;*/
+}
+.content .main{
+	width: 1170px;
+	margin: 0 auto;
+}
+.content .broadcast{
+	margin-top: -1px;
+}
+.hoverNavList{
+	width: 280px;
+	height: 387px;
+	background-color: #2F2F2F;
+	float: left;
+	margin-top: -1px;
+}
+.hoverNavList ul li{
+	width: 100%;
+	height: 129px;
+}
+.hoverNavList ul h1{
+	font-size: 14px;
+	color: #26a9e1;
+	padding-top: 18px;
+	padding-left: 25px;
+}
+.hoverNavList ul li a{
+	font-size: 12px;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	padding:4px 18px;
+}
+.hoverNavList ul .active{
+	background-color: #3b3b3b;
+}
+.hoverNavList ul li .box{
+	margin-left: 7px;
+	margin-top: 10px;
+}
+.swipercontent {
+	float: left;
+}
+.swipercontent .swiper-container {
+  width: 630px;
+  height: 372px;
+  margin-left: 15px;
+  margin-top: 15px;
+  float: left;
+}
+.swipercontent .swiper-container img{
+  width: 630px;
+  height: 372px;
+}
+.swipercontent .swiper-pagination-bullet{
+	width: 30px;
+	height: 5px;
+	background-color: #acb5c2;
+	border-radius: inherit;
+}
+.rightList{
+	width: 204px;
+	height: 302px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+	background-color: #FFFFFF;
+	padding: 35px 13px;
+}
+.rightList li {
+	width: 204px;
+	cursor: pointer;
+	float: left;
+	margin-bottom: 35px;
+}
+.rightList li img {
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+.rightList li h1{
+	font-size: 18px;
+	color: #eb7b03;
+	padding-top: 10px;
+}
+.rightList li p{
+	font-size: 12px;
+	color: #2f2f2f;
+	padding-top: 5px;
+}
+/*知识产品模块*/
+.propertyRight{
+	width: 100%;
+	height: 328px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	padding-top: 40px;
+}
+.propertyRight .topx{
+	width: 1066px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../img/xx.png) no-repeat;
+	background-size: 100%;
+	font-size: 20px;
+	color: #26A9E1;
+	line-height: 30px;
+	font-weight: bold;
+}
+.propertyRight ul{
+	margin-top: 45px;
+}
+.propertyRight ul li{
+	width: 292px;
+	text-align: center;
+	float: left;
+}
+.propertyRight ul li img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.propertyRight ul li h1{
+	color: #2F2F2F;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.propertyRight ul li p{
+	font-size: 14px;
+	color: #959595;
+	margin-bottom: 15px;
+}
+.propertyRight ul li p i{
+	font-style: normal;
+	color: #ff7c11;
+	float: left;
+	font-weight: bold;
+}
+.propertyRight ul li p span{
+	display: block;
+	float: right;
+	width: 77px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 15px;
+	color: #ff7c11;
+	font-size: 12px;
+	border: 1px solid #ff7c11;
+	cursor: pointer;
+	margin-top: -1px;
+}
+.propertyRight ul li .detail{
+	width: 182px;
+    margin: 0 auto;
+}
+/*广告位*/
+.advertisement{
+	width: 100%;
+	margin-top: 15px;
+}
+.advertisement img{
+	width: 100%;
+}
+.t_shop_content {
+	margin: 20px auto;
+	
+}
+
+.t_shop {
+	height: 400px;
+}
+
+.t_shop .floor_header {
+	width: 100%;
+	height: 35px;
+	margin-bottom: 8px;
+}
+
+.t_shop .floor_name {
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.t_shop .hot_key_word {
+	font-size: 14px;
+}
+.t_shop .hot_key_word li{
+	float: left;
+	margin-left: 20px;
+}
+.t_shop .a {
+	color: #666666;
+	margin-right: 5px;
+	line-height: 35px;
+}
+
+.t_shop .floor_body {
+	width: 100%;
+	height: 375px;
+}
+
+.t_shop .floor_body .big_banner {
+	background-color: #ffffff;
+	width: 235px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.t_shop .floor_body .shop_con {
+	width: 940px;
+	background-color: #ffffff;
+}
+
+.t_shop .floor_body .shop_con .shop {
+	width: 185px;
+	float: left;
+	height: 200px;
+	text-align: center;
+}
+
+.t_shop .floor_body .shop_con .company_logo {
+	height: 80px;
+	margin-top: 0px;
+}
+
+.t_shop .floor_body .shop_con .company_logo img {
+	width: 180px;
+	height: 150px;
+	padding: 0px 0px;
+	margin: 0px auto;
+}
+
+.t_shop .floor_body .shop_con .company_name {
+	height: 35px;
+	line-height: 35px;
+	margin-top: 50px;
+}
+.t_shop .floor_nahot_key_wordme{
+	font-size: 18px;
+	line-height: 35px;
+}
+.color_mark {
+	height: 20px;
+	width: 5px;
+	margin-top: 5px;
+	background-color: #3399ff;
+}
+/*推荐商铺*/
+.recommend{
+	width: 100%;
+	height: 270px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	padding-top: 40px;
+}
+.recommend .topx{
+	width: 1066px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../img/xt.png) no-repeat;
+	background-size: 100%;
+	font-size: 20px;
+	color: #26A9E1;
+	line-height: 30px;
+	font-weight: bold;
+}
+.recommend .titleList{
+	width: 1066px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.recommend .titleList li{
+	float: left;
+	width: 106px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0 15px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.recommend .titleList li:last-child{
+	margin-right: 0;
+}
+.recommend .titleList .active{
+	background-color: #33cdf4;
+	border-radius: 20px;
+	color: #FFFFFF;
+	
+}
+.recommend .titleList li:first-child{
+	margin-left: 0;
+}
+.ListBroadcast{
+	width: 1066px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	margin-top: 40px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 50px;
+}
+.ListBroadcast .swiper-slide{
+	width: 180px !important;
+	height: 110px;
+	margin: 0 10px 0 20px;
+}
+.swiper-button-next{
+	background-image: url(../img/right.png)  !important;
+}
+.swiper-button-prev{
+	background-image: url(../img/left.png)  !important;
+}
+/*专利交易*/
+.transaction{
+	width: 100%;
+	height: 270px;
+	margin-top: 15px;
+}
+.transaction .tLeft{
+	width: 886px;
+	height: 460px;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 40px;
+}
+.transaction .tRight{
+	margin-left: 15px;
+	width: 269px;
+	height: 500px;
+	float: left;
+	cursor: pointer;
+}
+.transaction .topx{
+	width: 786px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../img/xty.png) no-repeat;
+	background-size: 100%;
+	font-size: 20px;
+	color: #26A9E1;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.transaction .tLeft ul{
+	width: 786px;
+	margin: 0 auto;
+}
+.transaction .tLeft li{
+	width: 160px;
+	height: 185px;
+	margin: 0 24px;
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+}
+.transaction .tLeft li:hover{
+	-moz-box-shadow:0px 5px 13px #BDBDBD;
+	-webkit-box-shadow:0px 5px 13px #BDBDBD;
+	box-shadow:0px 5px 13px #BDBDBD;
+}
+.transaction .tLeft li:nth-child(1){
+	margin-left: 0;
+}
+.transaction .tLeft li:nth-child(5){
+	margin-left: 0;
+}
+.transaction .tLeft li:nth-child(4){
+	margin-right: 0;
+}
+.transaction .tLeft li:nth-child(8){
+	margin-right: 0;
+}
+.transaction .tLeft li img{
+	width: 160px;
+	height: 109px;
+	margin-bottom: 15px;
+}
+.transaction .tLeft li p{
+	color: #2F2F2F;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.transaction .tLeft li .price i{
+	font-style: normal;
+	font-size: 12px;
+	color: #ff7301;
+	padding-left: 8px;
+}
+.gwc{
+	width: 18px !important;
+	height: 17px !important;
+	display: block !important;
+	float: right !important;
+	margin-top: -20px;
+	margin-right: 13px;
+	display: none !important;
+}
+.transaction .tLeft li:hover .gwc{
+	display: block !important; 
+}
+/*商标交易*/
+.trademark{
+	width: 100%;
+	height: 280px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	padding-top: 40px;
+}
+.trademark .topx{
+	width: 1066px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../img/xt.png) no-repeat;
+	background-size: 100%;
+	font-size: 20px;
+	color: #26A9E1;
+	line-height: 30px;
+	font-weight: bold;
+}
+.trademark  ul {
+	width: 1066px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.trademark  li{
+	width: 160px;
+	height: 185px;
+	margin: 0 33px;
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+}
+.trademark li:hover{
+	-moz-box-shadow:0px 5px 13px #BDBDBD;
+	-webkit-box-shadow:0px 5px 13px #BDBDBD;
+	box-shadow:0px 5px 13px #BDBDBD;
+}
+.trademark li:hover .gwc{
+	display: block !important; 
+}
+.trademark li:nth-child(1){
+	margin-left: 0;
+}
+.trademark li:nth-child(5){
+	margin-right: 0;
+}
+.trademark li img{
+	width: 160px;
+	height: 109px;
+	margin-bottom: 15px;
+}
+.trademark li p{
+	color: #2F2F2F;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.trademark li .price i{
+	font-style: normal;
+	font-size: 12px;
+	color: #ff7301;
+	padding-left: 8px;
+}
+.transaction2 .tRight{
+	margin-left: 0px;
+	margin-right: 15px;
+}
+/*新闻资讯*/
+.news{
+	width: 100%;
+	height: 644px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	padding-top: 40px;
+}
+.news .topx{
+	width: 1066px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../img/xt.png) no-repeat;
+	background-size: 100%;
+	font-size: 20px;
+	color: #26A9E1;
+	line-height: 30px;
+	font-weight: bold;
+}
+.news .newsList{
+	width: 1066px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.news .newsList .left{
+	width: 838px;
+	float: left;
+}
+.news .newsList .left ul > li{
+	padding: 10px;
+	height: 152px;
+	position: relative;
+}
+.news .newsList .left .active{
+	background-color: #f0f0f0;
+}
+.news .newsList .left .leftimg{
+	display: block;
+	float: left;
+	width: 228px;
+	height: 152px;
+	margin-right: 15px;
+}
+.news .newsList .left h1{
+	font-size: 20px;
+	color: #2F2F2F;
+}
+.news .newsList .left li a{
+	float: left;
+	display: block;
+	width: 78px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #26A9E1;
+	font-size: 12px;
+	border: 1px solid #26a9e1;
+	border-radius: 18px;
+	position: absolute;
+	left: 253px;
+	bottom: 10px;
+}
+.news .newsList .left p{
+	font-size: 12px;
+	color: #959595;
+	margin-top: 20px;
+	line-height: 22px;
+}
+.news .newsList .left .ly{
+	width: 13px;
+	height: 13px;
+	margin-top: 5px;
+}
+.news .newsList .left .ll{
+	width: 19px;
+	height: 11px;
+	margin-top: 5px;
+}
+.news .newsList .left .sj{
+	width: 13px;
+	height: 13px;
+	margin-top: 4px;
+}
+.news .newsList .left ul > li ol{
+	float: right;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.news .newsList .left ul > li ol li{
+	float: left;
+	margin-left: 25px;
+}
+.news .newsList .left ul > li ol li img{
+	display: block;
+	float: left;
+}
+.news .newsList .left ul > li ol li p{
+	margin: 0;
+	float: left;
+	padding-left: 10px;
+}
+.news .right li {
+	width: 208px;
+	height: 155px;
+	padding: 0 10px;
+	padding-top: 17px;
+}
+.news .right li img{
+	display: block;
+	width: 208px;
+	height: 138px;
+}
+.news .right{
+	width: 228px;
+	height: 564px;
+	float: right;
+}
